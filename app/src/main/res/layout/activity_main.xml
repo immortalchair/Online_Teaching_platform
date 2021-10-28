@@ -17,7 +17,8 @@
 
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="wrap_content"/>
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -25,5 +26,12 @@
         android:text="EMIR PRIVET"
         tools:layout_editor_absoluteX="61dp"
         tools:layout_editor_absoluteY="142dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ALIMCHENG PRIVET"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="73dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
