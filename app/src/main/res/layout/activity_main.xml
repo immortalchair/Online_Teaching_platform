@@ -17,7 +17,8 @@
 
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
 
 
     <TextView
@@ -25,13 +26,25 @@
         android:layout_height="wrap_content"
         android:text="EMIR PRIVET"
         tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="142dp" />
+        tools:layout_editor_absoluteY="142dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ALIMCHENG PRIVET"
         tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="73dp" />
+        tools:layout_editor_absoluteY="73dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Бонжур тужур :3"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="442dp"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
