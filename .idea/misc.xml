@@ -3,14 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/OnlineTeachingplatform/app/src/main/res/layout/activity_emir2.xml" value="0.176" />
+        <entry key="..\:/OnlineTeachingplatform/app/src/main/res/layout/activity_emir2.xml" value="0.2" />
         <entry key="..\:/OnlineTeachingplatform/app/src/main/res/layout/activity_main.xml" value="0.23143115942028986" />
-        <entry key="..\:/OnlineTeachingplatform/app/src/main/res/layout/alim_1.xml" value="0.25416666666666665" />
+        <entry key="..\:/OnlineTeachingplatform/app/src/main/res/layout/alim_1.xml" value="0.2" />
         <entry key="..\:/OnlineTeachingplatform/app/src/main/res/layout/alim_2.xml" value="0.25416666666666665" />
         <entry key="..\:/OnlineTeachingplatform/app/src/main/res/layout/azim1.xml" value="0.25416666666666665" />
         <entry key="..\:/OnlineTeachingplatform/app/src/main/res/layout/azim2.xml" value="0.25416666666666665" />
         <entry key="..\:/OnlineTeachingplatform/app/src/main/res/layout/azim3.xml" value="0.25416666666666665" />
         <entry key="..\:/OnlineTeachingplatform/app/src/main/res/layout/azim4.xml" value="0.25416666666666665" />
+        <entry key="..\:/OnlineTeachingplatform/app/src/main/res/layout/azom1.xml" value="0.20854700854700856" />
         <entry key="..\:/OnlineTeachingplatform/app/src/main/res/layout/emir_1.xml" value="0.2" />
         <entry key="..\:/TSI/SENIOR/Android/Online_Teaching_platform/app/src/main/res/drawable/border.xml" value="0.3828125" />
         <entry key="..\:/TSI/SENIOR/Android/Online_Teaching_platform/app/src/main/res/drawable/border2.xml" value="0.3828125" />
@@ -24,14 +25,6 @@
         <entry key="..\:/TSI/SENIOR/Android/Online_Teaching_platform/app/src/main/res/layout/azom3.xml" value="0.2957427536231884" />
         <entry key="..\:/TSI/SENIOR/Android/Online_Teaching_platform/app/src/main/res/layout/azom4.xml" value="0.2957427536231884" />
         <entry key="..\:/TSI/SENIOR/Android/Online_Teaching_platform/app/src/main/res/layout/emir_1.xml" value="0.2957427536231884" />
-        <entry key="..\:/TSI/SENIOR/Android/groip/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
-        <entry key="..\:/TSI/SENIOR/Android/groip/app/src/main/res/layout/alim_1.xml" value="0.2957427536231884" />
-        <entry key="..\:/TSI/SENIOR/Android/groip/app/src/main/res/layout/alim_2.xml" value="0.2957427536231884" />
-        <entry key="..\:/TSI/SENIOR/Android/groip/app/src/main/res/layout/azom1.xml" value="0.2957427536231884" />
-        <entry key="..\:/TSI/SENIOR/Android/groip/app/src/main/res/layout/azom2.xml" value="0.2957427536231884" />
-        <entry key="..\:/TSI/SENIOR/Android/groip/app/src/main/res/layout/azom3.xml" value="0.22" />
-        <entry key="..\:/TSI/SENIOR/Android/groip/app/src/main/res/layout/azom4.xml" value="0.2957427536231884" />
-        <entry key="..\:/TSI/SENIOR/Android/groip/app/src/main/res/layout/emir_1.xml" value="0.2957427536231884" />
       </map>
     </option>
   </component>
