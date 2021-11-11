@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">OnlineTeachingplatform</string>
+    <string name="GGG">Guset 1</string>
+    <string name="Eric">By Eric Novel</string>
+    <string name="Jacob">By Jake Jacobs</string>
+    <string name="Nic">By Nicholas Kayemba</string>
+    <string name="Matt">By Matthew Brown</string>
+    <string name="Almaz">By Almaz Shamytaev</string>
+    <string name="Stream">Live streams:</string>
+    <string name="Present">Preset simple tense</string>
+    <string name="Past">Past simple tense</string>
+    <string name="Perfect">Present perfect tense</string>
+    <string name="P_P">Past perfect tense</string>
+
+
+
+
+
+
+
+
+
 </resources>
