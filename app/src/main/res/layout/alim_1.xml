@@ -7,341 +7,258 @@
     android:background="@color/BG_color"
     android:orientation="vertical">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="410dp"
-        android:layout_height="727dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="2dp">
 
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Guest 1"
-            android:textColor="@color/black"
-            android:textSize="30dp" />
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/guest_1_2"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Records"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="159dp"
-            tools:layout_editor_absoluteY="83dp" />
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/records_2"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView50" />
 
-        <ImageView
-            android:layout_width="42dp"
-            android:layout_height="35dp"
-            app:srcCompat="@drawable/component_26"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="353dp"
-            tools:layout_editor_absoluteY="5dp" />
-
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="600dp"
-            android:layout_height="6dp"
-            app:srcCompat="@drawable/line_1"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="118dp" />
-
-        <TextView
-            android:layout_width="170dp"
-            android:layout_height="53dp"
-            android:text="Choose the topic:"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="127dp"
-            tools:layout_editor_absoluteY="147dp" />
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="321dp"
-            android:layout_height="84dp"
-            app:srcCompat="@drawable/rectangle_15"
-            tools:layout_editor_absoluteX="45dp"
-            tools:layout_editor_absoluteY="223dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="tense"
-            android:textColor="@color/white"
-            android:textSize="30dp"
-            tools:layout_editor_absoluteX="168dp"
-            tools:layout_editor_absoluteY="263dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Present simple"
-
-            android:textColor="@color/white"
-            android:textSize="30dp"
-            tools:layout_editor_absoluteX="105dp"
-            tools:layout_editor_absoluteY="223dp" />
-
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="321dp"
-            android:layout_height="87dp"
-            app:srcCompat="@drawable/rectangle_15"
-            tools:layout_editor_absoluteX="45dp"
-            tools:layout_editor_absoluteY="332dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Present simple"
-
-            android:textColor="@color/white"
-            android:textSize="30dp"
-            tools:layout_editor_absoluteX="105dp"
-            tools:layout_editor_absoluteY="343dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="tense"
-            android:textColor="@color/white"
-            android:textSize="30dp"
-            tools:layout_editor_absoluteX="168dp"
-            tools:layout_editor_absoluteY="379dp" />
-
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="327dp"
-            android:layout_height="86dp"
-            app:srcCompat="@drawable/rectangle_15"
-            tools:layout_editor_absoluteX="46dp"
-            tools:layout_editor_absoluteY="446dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Past perfect"
+    <ImageView
+        android:layout_width="42dp"
+        android:layout_height="35dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView50"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/component_26"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/bottom_sheet_behavior" />
 
 
-            android:textColor="@color/white"
-            android:textSize="30dp"
-            app:layout_constraintEnd_toEndOf="@+id/imageView4"
-            app:layout_constraintStart_toStartOf="@+id/imageView4"
-            tools:layout_editor_absoluteY="446dp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="tense"
-            android:textColor="@color/white"
-            android:textSize="30dp"
-            tools:layout_editor_absoluteX="169dp"
-            tools:layout_editor_absoluteY="486dp" />
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="170dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/choose_the_topic_2"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView51" />
 
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="321dp"
-            android:layout_height="87dp"
-            app:srcCompat="@drawable/rectangle_15"
-            tools:layout_editor_absoluteX="46dp"
-            tools:layout_editor_absoluteY="553dp" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="321dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView52"
+        app:srcCompat="@drawable/rectangle_15"
+        android:contentDescription="@string/GGG" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Past perfect"
-            android:textColor="@color/white"
-            android:textSize="30dp"
-            tools:layout_editor_absoluteX="128dp"
-            tools:layout_editor_absoluteY="553dp" />
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/tense2"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="tense"
-            android:textColor="@color/white"
-            android:textSize="30dp"
-            tools:layout_editor_absoluteX="169dp"
-            tools:layout_editor_absoluteY="593dp"></TextView>
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
 
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/star_4"
-            tools:layout_editor_absoluteX="256dp"
-            tools:layout_editor_absoluteY="307dp" />
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/present_simple_2"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView52" />
 
-        <ImageView
-            android:id="@+id/imageView7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/star_4"
-            tools:layout_editor_absoluteX="277dp"
-            tools:layout_editor_absoluteY="307dp" />
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="321dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/rectangle_15"
+        android:contentDescription="@string/GGG" />
 
-        <ImageView
-            android:id="@+id/imageView8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/star_4"
-            tools:layout_editor_absoluteX="297dp"
-            tools:layout_editor_absoluteY="307dp" />
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
 
-        <ImageView
-            android:id="@+id/imageView9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/star_5"
-            tools:layout_editor_absoluteX="337dp"
-            tools:layout_editor_absoluteY="307dp" />
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/present_simple2"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
-        <ImageView
-            android:id="@+id/imageView10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/star_4"
-            tools:layout_editor_absoluteX="256dp"
-            tools:layout_editor_absoluteY="419dp" />
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/tense3"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView56" />
 
-        <ImageView
-            android:id="@+id/imageView11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/star_4"
-            tools:layout_editor_absoluteX="337dp"
-            tools:layout_editor_absoluteY="419dp" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="327dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="340dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView51"
+        app:srcCompat="@drawable/rectangle_15"
+        android:contentDescription="@string/todo3" />
 
-        <ImageView
-            android:id="@+id/imageView12"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/star_4"
-            tools:layout_editor_absoluteX="276dp"
-            tools:layout_editor_absoluteY="419dp" />
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
 
-        <ImageView
-            android:id="@+id/imageView13"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/star_4"
-            tools:layout_editor_absoluteX="317dp"
-            tools:layout_editor_absoluteY="419dp" />
 
-        <ImageView
-            android:id="@+id/imageView14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/star_4"
-            tools:layout_editor_absoluteX="297dp"
-            tools:layout_editor_absoluteY="419dp" />
+        android:layout_marginTop="24dp"
+        android:text="@string/past_perfect3"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView54" />
 
-        <ImageView
-            android:id="@+id/imageView15"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/star_4"
-            tools:layout_editor_absoluteX="317dp"
-            tools:layout_editor_absoluteY="307dp" />
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:text="@string/tense2"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView57" />
 
-        <ImageView
-            android:id="@+id/imageView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/star_4"
-            tools:layout_editor_absoluteX="257dp"
-            tools:layout_editor_absoluteY="532dp" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="321dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView58"
+        app:srcCompat="@drawable/rectangle_15"
+        android:contentDescription="@string/GGG" />
 
-        <ImageView
-            android:id="@+id/imageView17"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/star_4"
-            tools:layout_editor_absoluteX="277dp"
-            tools:layout_editor_absoluteY="532dp" />
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/past_perfect2"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView58" />
 
-        <ImageView
-            android:id="@+id/imageView18"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/star_4"
-            tools:layout_editor_absoluteX="297dp"
-            tools:layout_editor_absoluteY="532dp" />
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/tense2"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView59" />
 
-        <ImageView
-            android:id="@+id/imageView19"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/star_5"
-            tools:layout_editor_absoluteX="317dp"
-            tools:layout_editor_absoluteY="532dp" />
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="409dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView60"
+        app:srcCompat="@drawable/rectangle_49"
+        android:contentDescription="@string/GGG" />
 
-        <ImageView
-            android:id="@+id/imageView20"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/star_5"
-            tools:layout_editor_absoluteX="337dp"
-            tools:layout_editor_absoluteY="532dp" />
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView60"
+        app:srcCompat="@drawable/component_17"
+        android:contentDescription="@string/GGG" />
 
-        <ImageView
-            android:id="@+id/imageView21"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/star_4"
-            tools:layout_editor_absoluteX="256dp"
-            tools:layout_editor_absoluteY="640dp" />
 
-        <ImageView
-            android:id="@+id/imageView24"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/star_5"
-            tools:layout_editor_absoluteX="276dp"
-            tools:layout_editor_absoluteY="640dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/component_45"
+        android:contentDescription="@string/GGG" />
 
-        <ImageView
-            android:id="@+id/imageView25"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/star_5"
-            tools:layout_editor_absoluteX="317dp"
-            tools:layout_editor_absoluteY="640dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="412dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/component_45"
+        android:contentDescription="@string/GGG" />
 
-        <ImageView
-            android:id="@+id/imageView26"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/star_5"
-            tools:layout_editor_absoluteX="337dp"
-            tools:layout_editor_absoluteY="640dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="616dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/component_45"
+        android:contentDescription="@string/GGG" />
 
-        <ImageView
-            android:id="@+id/imageView27"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/star_5"
-            tools:layout_editor_absoluteX="297dp"
-            tools:layout_editor_absoluteY="640dp" />
-
-        <ImageView
-            android:id="@+id/imageView29"
-            android:layout_width="540dp"
-            android:layout_height="173dp"
-            app:srcCompat="@drawable/rectangle_49"
-            tools:layout_editor_absoluteX="-64dp"
-            tools:layout_editor_absoluteY="629dp" />
-
-        <ImageView
-            android:id="@+id/imageView30"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/component_17"
-            tools:layout_editor_absoluteX="72dp"
-            tools:layout_editor_absoluteY="669dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/component_45"
+        android:contentDescription="@string/GGG"/>

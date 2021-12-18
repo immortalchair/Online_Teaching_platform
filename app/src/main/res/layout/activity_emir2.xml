@@ -18,9 +18,9 @@
             android:layout_width="200dp"
             android:layout_height="70dp"
             android:gravity="center"
-            android:text="Guest 1"
+            android:text="@string/guest_1_1"
             android:textColor="#000000"
-            android:textSize="26dp"
+            android:textSize="26sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -32,29 +32,30 @@
             android:layout_height="70dp"
             android:layout_marginTop="24dp"
             android:gravity="center"
-            android:text="no older notifications"
+            android:text="@string/no_older_notifications_1"
             android:textColor="#000000"
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
 
+
         <TextView
-            android:id="@+id/textView14"
+            android:id="@+id/Sen1"
             android:layout_width="350dp"
             android:layout_height="70dp"
             android:backgroundTint="#00FFFF"
             android:gravity="center"
-            android:text="Notifications:"
+            android:text="@string/notifications_1"
             android:textColor="#000000"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
-
 
         <ImageButton
             android:id="@+id/imageButton7"
@@ -65,7 +66,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.492"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/Past" />
 
         <ImageButton
             android:id="@+id/imageButton2"
@@ -76,7 +78,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.492"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+            android:contentDescription="@string/Present" />
 
         <ImageButton
             android:id="@+id/imageButton3"
@@ -87,7 +90,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.492"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton4" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+            android:contentDescription="@string/Almaz" />
 
         <ImageButton
             android:id="@+id/imageButton4"
@@ -98,7 +102,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.492"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton5" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+            android:contentDescription="@string/GGG" />
 
         <ImageButton
             android:id="@+id/imageButton5"
@@ -109,7 +114,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.492"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton6" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+            android:contentDescription="@string/Stream" />
 
         <ImageButton
             android:id="@+id/imageButton6"
@@ -120,16 +126,17 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.492"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton7" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton7"
+            android:contentDescription="@string/bottom_sheet_behavior" />
 
         <TextView
             android:id="@+id/textView12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Nicholas Kaybema is live:"
+            android:text="@string/nicholas_kaybema_is_live_2"
             android:textColor="#000000"
-            android:textSize="14dp"
+            android:textSize="14sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageButton7"
             app:layout_constraintHorizontal_bias="0.06"
@@ -141,9 +148,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Nicholas Kaybema is live:"
+            android:text="@string/nicholas_kaybema_is_live_1"
             android:textColor="#000000"
-            android:textSize="14dp"
+            android:textSize="14sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageButton2"
             app:layout_constraintHorizontal_bias="0.09"
@@ -155,9 +162,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Nicholas Kaybema is live:"
+            android:text="@string/nicholas_kaybema_is_live_1"
             android:textColor="#000000"
-            android:textSize="14dp"
+            android:textSize="14sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageButton5"
             app:layout_constraintHorizontal_bias="0.06"
@@ -169,9 +176,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Nicholas Kaybema is live:"
+            android:text="@string/nicholas_kaybema_is_live_1"
             android:textColor="#000000"
-            android:textSize="14dp"
+            android:textSize="14sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageButton6"
             app:layout_constraintHorizontal_bias="0.06"
@@ -183,9 +190,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Nicholas Kaybema is live:"
+            android:text="@string/nicholas_kaybema_is_live_3"
             android:textColor="#000000"
-            android:textSize="14dp"
+            android:textSize="14sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageButton3"
             app:layout_constraintHorizontal_bias="0.06"
@@ -197,9 +204,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Nicholas Kaybema is live:"
+            android:text="@string/nicholas_kaybema_is_live_6"
             android:textColor="#000000"
-            android:textSize="14dp"
+            android:textSize="14sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageButton4"
             app:layout_constraintHorizontal_bias="0.06"
@@ -210,9 +217,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Nicholas Kaybema is live:"
+            android:text="@string/nicholas_kaybema_is_live_2"
             android:textColor="#000000"
-            android:textSize="19dp"
+            android:textSize="19sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageButton7"
             app:layout_constraintHorizontal_bias="0.09"
@@ -224,9 +231,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Nicholas Kaybema is live:"
+            android:text="@string/nicholas_kaybema_is_live_3"
             android:textColor="#000000"
-            android:textSize="19dp"
+            android:textSize="19sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageButton2"
             app:layout_constraintHorizontal_bias="0.09"
@@ -238,9 +245,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Nicholas Kaybema is live:"
+            android:text="@string/nicholas_kaybema_is_live_3"
             android:textColor="#000000"
-            android:textSize="19dp"
+            android:textSize="19sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageButton3"
             app:layout_constraintHorizontal_bias="0.09"
@@ -252,9 +259,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Nicholas Kaybema is live:"
+            android:text="@string/nicholas_kaybema_is_live_1"
             android:textColor="#000000"
-            android:textSize="19dp"
+            android:textSize="19sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageButton4"
             app:layout_constraintHorizontal_bias="0.09"
@@ -266,9 +273,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Nicholas Kaybema is live:"
+            android:text="@string/nicholas_kaybema_is_live_3"
             android:textColor="#000000"
-            android:textSize="19dp"
+            android:textSize="19sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageButton5"
             app:layout_constraintHorizontal_bias="0.09"
@@ -280,9 +287,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Nicholas Kaybema is live:"
+            android:text="@string/nicholas_kayb"
             android:textColor="#000000"
-            android:textSize="19dp"
+            android:textSize="19sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageButton6"
             app:layout_constraintHorizontal_bias="0.09"
@@ -295,7 +302,8 @@
             android:src="@drawable/component_32"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            android:contentDescription="@string/Eric" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

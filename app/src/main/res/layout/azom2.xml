@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="23dp"
         >
 
@@ -17,13 +17,15 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:background="@drawable/vtorooy"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:contentDescription="@string/P_P" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/vtorooy2"
-        android:layout_marginLeft="265dp"/>
+        android:layout_marginStart="265dp"
+        android:contentDescription="@string/Matt" />
     </LinearLayout>
 
 
@@ -36,14 +38,15 @@
         <ImageView
             android:layout_width="128dp"
             android:layout_height="128dp"
-            android:background="@drawable/user_icon" />
+            android:background="@drawable/user_icon"
+            android:contentDescription="@string/P_P" />
     </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Guest1"
-        android:textSize="28dp"
+        android:text="@string/guest1_5"
+        android:textSize="28sp"
         android:layout_gravity="center"
         android:layout_marginTop="15dp"
         android:textStyle="normal"
@@ -54,7 +57,8 @@
     android:layout_height="wrap_content"
     android:background="@drawable/watch"
     android:layout_gravity="center"
-    android:layout_marginTop="33dp"/>
+    android:layout_marginTop="33dp"
+    android:contentDescription="@string/Matt" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -62,12 +66,14 @@
         android:background="@drawable/vtorooy3"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
+        android:contentDescription="@string/Matt" />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/text"
             android:layout_marginTop="18dp"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:contentDescription="@string/bottom_sheet_behavior" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -75,10 +81,12 @@
         android:layout_gravity="center"
         android:background="@drawable/wofile"
         android:layout_marginTop="13dp"
+        android:contentDescription="@string/Almaz" />
 <ImageView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:background="@drawable/wlogo"
-    android:layout_marginTop="14dp"/>
+    android:layout_marginTop="14dp"
+    android:contentDescription="@string/Stream" />
 </LinearLayout>

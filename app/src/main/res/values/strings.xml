@@ -11,13 +11,71 @@
     <string name="Past">Past simple tense</string>
     <string name="Perfect">Present perfect tense</string>
     <string name="P_P">Past perfect tense</string>
-
-
-
-
-
-
-
+    <string name="guest_1_1">Guest 1</string>
+    <string name="no_older_notifications_1">no older notifications</string>
+    <string name="notifications_1">Notifications:</string>
+    <string name="nicholas_kaybema_is_live_2">Nicholas Kaybema is live:</string>
+    <string name="nicholas_kaybema_is_live_9">Nicholas Kaybema is live:</string>
+    <string name="nicholas_kaybema_is_live_6">Nicholas Kaybema is live:</string>
+    <string name="nicholas_kaybema_is_live_1">Nicholas Kaybema is live:</string>
+    <string name="nicholas_kaybema_is_live_3">Nicholas Kaybema is live:</string>
+    <string name="nicholas_kaybema">Nicholas Kaybema is live:</string>
+    <string name="nicholas_kaybema_i">Nicholas Kaybema is live:</string>
+    <string name="nicholas_ka">Nicholas Kaybema is live:</string>
+    <string name="nicholas_kaybema_is_liv">Nicholas Kaybema is live:</string>
+    <string name="nicholas_kaybema_is_li_1">Nicholas Kaybema is live:</string>
+    <string name="nicholas_kaybema_is_l">Nicholas Kaybema is live:</string>
+    <string name="nicholas_kayb">Nicholas Kaybema is live:</string>
+    <string name="choose_your_profile_3">Choose your profile</string>
+    <string name="guest1_1">Guest!</string>
+    <string name="guest1_2">Guest!</string>
+    <string name="guest1_3">Guest!</string>
+    <string name="or_4">OR</string>
+    <string name="create_a_new_account_8">Create a new account</string>
+    <string name="guest1_5">Guest!</string>
+    <string name="guest_1_5">Guest 1</string>
+    <string name="choose_a_subject_9">Choose a subject</string>
+    <string name="guest_1_3">Guest 1</string>
+    <string name="choose_your_format_4">Choose your format :</string>
+    <string name="been_live_for_24mins_2">Been live for: 24mins</string>
+    <string name="been_live_for_22min2">Been live for: 22mins</string>
+    <string name="been_live_for_34minse">Been live for: 34mins</string>
+    <string name="been_live_for_29mins2">Been live for: 29mins</string>
+    <string name="been_live_for_21mins2">Been live for: 21mins</string>
+    <string name="wacthing_5263">Wacthing: 526</string>
+    <string name="wacthing_21_3">Wacthing:21</string>
+    <string name="wacthing_556_2">Wacthing: 556</string>
+    <string name="wacthing_523_3">Wacthing: 523</string>
+    <string name="wacthing_432_3">Wacthing: 432</string>
+    <string name="guest_1_2">Guest 1</string>
+    <string name="creators_you_follow_2">Creators you follow:</string>
+    <string name="nicholas_kayemba_2">Nicholas Kayemba</string>
+    <string name="judy_roland_2">Judy Roland</string>
+    <string name="sapphire_frederica_2">Sapphire Frederica</string>
+    <string name="lorainne_jadyn2">Lorainne Jadyn</string>
+    <string name="harlow_starla_2">Harlow Starla</string>
+    <string name="ariana_jersey_2">Ariana Jersey</string>
+    <string name="darleen_wilfred_2">Darleen Wilfred</string>
+    <string name="megan_foscul_2">Megan Foscul</string>
+    <string name="larrie_buster_2">Larrie Buster</string>
+    <string name="jake_jakobs_2">Jake Jakobs</string>
+    <string name="rating1">Rating</string>
+    <string name="_7_lessons2">7 Lessons</string>
+    <string name="duration_55_min2">duration: 55 min</string>
+    <string name="_3rd_march2">3rd March</string>
+    <string name="up_next2">Up next :</string>
+    <string name="guesa">Guest 1</string>
+    <string name="records_2">Records</string>
+    <string name="choose_the_topic_2">Choose the topic:</string>
+    <string name="tensd">tense</string>
+    <string name="present_simple_2">Present simple</string>
+    <string name="present_simple2">Present simple</string>
+    <string name="tense3">tense</string>
+    <string name="todo3">TODO</string>
+    <string name="past_perfect3">Past perfect</string>
+    <string name="tenks">tense</string>
+    <string name="past_perfect2">Past perfect</string>
+    <string name="tense2">tense</string>
 
 
 </resources>

@@ -19,9 +19,9 @@
             android:layout_width="200dp"
             android:layout_height="70dp"
             android:gravity="center"
-            android:text="Guest 1"
+            android:text="@string/guest_1_2"
             android:textColor="#000000"
-            android:textSize="26dp"
+            android:textSize="26sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -32,9 +32,9 @@
             android:layout_height="70dp"
             android:backgroundTint="#00FFFF"
             android:gravity="center"
-            android:text="Creators you follow:"
+            android:text="@string/creators_you_follow_2"
             android:textColor="#000000"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -47,7 +47,8 @@
             android:src="@drawable/component_32"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            android:contentDescription="@string/Eric" />
 
         <ImageButton
             android:id="@+id/imageButton16"
@@ -57,7 +58,8 @@
             android:src="@drawable/rectangle_52"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/Stream" />
 
         <ImageButton
             android:id="@+id/imageButton"
@@ -67,7 +69,8 @@
             android:src="@drawable/rectangle_52"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton8" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton8"
+            android:contentDescription="@string/Stream" />
 
         <ImageButton
             android:id="@+id/imageButton8"
@@ -76,7 +79,8 @@
             android:src="@drawable/rectangle_52"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton9" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton9"
+            android:contentDescription="@string/Stream" />
 
         <ImageButton
             android:id="@+id/imageButton9"
@@ -85,7 +89,8 @@
             android:src="@drawable/rectangle_52"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton10" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton10"
+            android:contentDescription="@string/Stream" />
 
         <ImageButton
             android:id="@+id/imageButton10"
@@ -94,7 +99,8 @@
             android:src="@drawable/rectangle_52"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton11" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton11"
+            android:contentDescription="@string/Stream" />
 
         <ImageButton
             android:id="@+id/imageButton11"
@@ -103,7 +109,8 @@
             android:src="@drawable/rectangle_52"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton12" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton12"
+            android:contentDescription="@string/Stream" />
 
         <ImageButton
             android:id="@+id/imageButton12"
@@ -112,7 +119,8 @@
             android:src="@drawable/rectangle_52"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton13" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton13"
+            android:contentDescription="@string/Stream" />
 
         <ImageButton
             android:id="@+id/imageButton13"
@@ -121,7 +129,8 @@
             android:src="@drawable/rectangle_52"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton14" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton14"
+            android:contentDescription="@string/appbar_scrolling_view_behavior" />
 
         <ImageButton
             android:id="@+id/imageButton14"
@@ -130,7 +139,8 @@
             android:src="@drawable/rectangle_52"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton15" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton15"
+            android:contentDescription="@string/Stream" />
 
         <ImageButton
             android:id="@+id/imageButton15"
@@ -139,16 +149,17 @@
             android:src="@drawable/rectangle_52"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton16" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton16"
+            android:contentDescription="@string/bottom_sheet_behavior" />
 
         <TextView
             android:id="@+id/textView25"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Nicholas Kayemba"
+            android:text="@string/nicholas_kayemba_2"
             android:textColor="#000000"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageButton16"
             app:layout_constraintHorizontal_bias="0.06"
@@ -160,9 +171,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Judy Roland"
+            android:text="@string/judy_roland_2"
             android:textColor="#000000"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageButton"
             app:layout_constraintHorizontal_bias="0.06"
@@ -174,9 +185,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Sapphire Frederica"
+            android:text="@string/sapphire_frederica_2"
             android:textColor="#000000"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageButton8"
             app:layout_constraintHorizontal_bias="0.06"
@@ -188,9 +199,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Lorainne Jadyn "
+            android:text="@string/lorainne_jadyn2"
             android:textColor="#000000"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageButton9"
             app:layout_constraintHorizontal_bias="0.06"
@@ -202,9 +213,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Harlow Starla"
+            android:text="@string/harlow_starla_2"
             android:textColor="#000000"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageButton10"
             app:layout_constraintHorizontal_bias="0.06"
@@ -216,9 +227,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Ariana Jersey"
+            android:text="@string/ariana_jersey_2"
             android:textColor="#000000"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageButton11"
             app:layout_constraintHorizontal_bias="0.06"
@@ -230,9 +241,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Darleen Wilfred "
+            android:text="@string/darleen_wilfred_2"
             android:textColor="#000000"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageButton12"
             app:layout_constraintHorizontal_bias="0.06"
@@ -244,9 +255,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Megan Foscul"
+            android:text="@string/megan_foscul_2"
             android:textColor="#000000"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageButton13"
             app:layout_constraintHorizontal_bias="0.06"
@@ -258,9 +269,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Larrie Buster"
+            android:text="@string/larrie_buster_2"
             android:textColor="#000000"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageButton14"
             app:layout_constraintHorizontal_bias="0.06"
@@ -272,9 +283,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Jake Jakobs"
+            android:text="@string/jake_jakobs_2"
             android:textColor="#000000"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageButton15"
             app:layout_constraintHorizontal_bias="0.06"

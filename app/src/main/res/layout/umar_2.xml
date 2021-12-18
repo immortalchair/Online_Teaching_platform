@@ -10,65 +10,89 @@
         android:id="@+id/imageView31"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:contentDescription="@string/P_P"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/component_32"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="641dp" />
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView50"
         android:layout_width="379dp"
         android:layout_height="376dp"
+        android:layout_marginTop="256dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.031"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/note"
-        tools:layout_editor_absoluteX="-23dp"
-        tools:layout_editor_absoluteY="326dp" />
+        android:contentDescription="@string/P_P" />
 
     <ImageView
         android:id="@+id/imageView52"
         android:layout_width="426dp"
         android:layout_height="229dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/rectangle_15"
-        tools:layout_editor_absoluteX="-47dp"
-        tools:layout_editor_absoluteY="28dp" />
+        android:contentDescription="@string/P_P" />
 
     <ImageView
         android:id="@+id/imageView53"
         android:layout_width="41dp"
         android:layout_height="18dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/strelka_belka"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="5dp" />
+        android:contentDescription="@string/P_P" />
 
     <ImageView
         android:id="@+id/imageView54"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="104dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/you"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="98dp" />
+        android:contentDescription="@string/appbar_scrolling_view_behavior" />
 
     <ImageView
         android:id="@+id/imageView56"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/live_life"
-        tools:layout_editor_absoluteX="253dp"
-        tools:layout_editor_absoluteY="41dp" />
+        android:contentDescription="@string/P_P" />
 
     <ImageView
         android:id="@+id/imageView61"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/image_23__1_"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="45dp" />
+        android:contentDescription="@string/Stream" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="368dp"
         android:text="@string/Past"
         android:textColor="@color/black"
-        android:textSize="23dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="257dp" />
+        android:textSize="23sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

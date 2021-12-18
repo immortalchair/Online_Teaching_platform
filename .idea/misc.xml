@@ -27,12 +27,14 @@
         <entry key="..\:/TSI/SENIOR/Android/Online_Teaching_platform/app/src/main/res/layout/emir_1.xml" value="0.2957427536231884" />
         <entry key="app/src/main/res/layout/activity_emir2.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1503623188405797" />
-        <entry key="app/src/main/res/layout/alim_1.xml" value="0.1503623188405797" />
-        <entry key="app/src/main/res/layout/alim_2.xml" value="0.14447857602035571" />
+        <entry key="app/src/main/res/layout/alim_1.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/alim_2.xml" value="0.24763148236551027" />
         <entry key="app/src/main/res/layout/azom1.xml" value="0.1503623188405797" />
+        <entry key="app/src/main/res/layout/azom2.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/azom3.xml" value="0.2953125" />
         <entry key="app/src/main/res/layout/azom4.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/emir_1.xml" value="0.1503623188405797" />
-        <entry key="app/src/main/res/layout/umar_1.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/umar_1.xml" value="0.1" />
         <entry key="app/src/main/res/layout/umar_2.xml" value="0.24881803376501996" />
       </map>
     </option>
